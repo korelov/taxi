@@ -47,7 +47,9 @@ public class Taxi {
             case "Строитель" -> {
                 return 12;
             }
+            default -> {
+                return 0;
+            }
         }
-        return 0;
     }
 }
